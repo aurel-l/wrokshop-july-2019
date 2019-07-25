@@ -1,0 +1,32 @@
+.task {
+  background: peru;
+  color: darkred;
+  border-radius: 3px;
+  margin: 1ch 0;
+  padding: 1ch;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "content close"
+    "content state"
+    "content created";
+  grid-gap: 1ch;
+  opacity: 1;
+  transition: opacity ease-in-out 500ms;
+}
+
+.task.done {
+  opacity: 0.75;
+}
+
+.content {
+  grid-area: content;
+}
+
+.done .content {
+  text-decoration: line-through;
+}
+
+.state {
+  grid-area: state;
+}

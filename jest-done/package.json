@@ -1,0 +1,14 @@
+{
+  "name": "jest-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "add.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "24.8.0"
+  }
+}

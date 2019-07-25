@@ -1,0 +1,21 @@
+.container {
+  background: darkred;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: palegoldenrod;
+  border-radius: 3px;
+  width: 80vw;
+  max-width: 1000px;
+}
+
+.container > h1 {
+  margin: 0;
+}
+
+.list {
+  list-style: none;
+  flex-grow: 1;
+  padding: 0;
+}
